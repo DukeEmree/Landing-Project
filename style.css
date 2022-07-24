@@ -11,7 +11,7 @@
 #header1{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-betwen;
     flex-basis: 0;
     
 }
@@ -69,4 +69,25 @@ p{
     display: flex;
     flex-basis: 0;
     
+}
+.kutu{
+    height: 200px;
+    width: 200px;
+    border: 1px blue solid;
+}
+#section2{
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    justify-content: center;
+}
+.div-section2{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center
+}
+#information{
+    text-align: center;
 }
